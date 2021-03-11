@@ -34,3 +34,11 @@
 > Conda install package with specifig version
 
 `conda install packages 3.6.9 scikit-learn=0.22 matplotlib pandas jupyter `
+
+> Export existing conda environment yml file
+
+`conda env export > environment.yml`
+
+> Create new env with environment.yml file
+
+`conda env create --prefix ./env -f ../environment.yml`
